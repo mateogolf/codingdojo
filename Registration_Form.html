@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registration Form Practice</title>
+        <meta name="description" content="This is the second assignment for Coding Dojo HTML for form practice">
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form>
+            <table>
+                <thead>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td><label for="first_name">First Name:</label></td>
+                            <td></td>
+                            <td><input type="text" id="first_name" name="first_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="last_name">Last Name: </label></td>
+                            <td></td>
+                            <td><input type="text" id="last_name" name="last_name"></td>
+                        </tr>
+                        <!-- Email -->
+                        <tr>
+                            <td><label for="email">Email: </label></td>
+                            <td></td>
+                            <td><input type="text" id="email" name="email"></td>
+                        </tr>
+                        <!-- Password -->
+                        <tr>
+                            <td><label for="password">Password: </label></td>
+                            <td></td>
+                            <td><input type="text" id="password" name="password"></td>
+                        </tr>                        
+                        <!-- PW Confirm -->
+                        <tr>
+                            <td><label for="pw_confirm">PW Confirm: </label></td>
+                            <td></td>
+                            <td><input type="text" id="pw_confirm" name="pw_confirm"></td>
+                        </tr>
+                        <!-- Birthday -->
+                        <tr>
+                            <td><label for="birthday">Birthday: </label></td>
+                            <td></td>
+                            <td><input type="date" id="birthday" name="birthday"></td>
+                        </tr>
+                </tbody>
+            </table>
+            <p><!-- Radio: Male, Female, Other   -->
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+
+                <label for="other">Other</label>
+                <input type="radio" id="other" name="gender" value="other">
+            </p>
+            <p>a short description about yourself</p>
+            <!-- Text area description -->
+            <textarea name="description" id="description" cols="35" rows="5"></textarea>
+            <p></p>
+            <!-- Foreign Language Dropdown -->
+            <label for="language">Favorite Language</label>
+            <select name="language" id="language">
+                <option value="js">JavaScript</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+            </select>
+            <p></p>
+            <!-- submit -->
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
