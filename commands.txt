@@ -1,0 +1,84 @@
+C:\Users\Matt>cd Desktop
+
+C:\Users\Matt\Desktop>md test
+
+C:\Users\Matt\Desktop>cd test
+
+C:\Users\Matt\Desktop\test>cop NUL index.html
+'cop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Matt\Desktop\test>copy NUL index.html
+        1 file(s) copied.
+
+C:\Users\Matt\Desktop\test>copy NUL style.css
+        1 file(s) copied.
+
+C:\Users\Matt\Desktop\test>copy NUL commands.txt
+        1 file(s) copied.
+
+C:\Users\Matt\Desktop\test>copy index.html index_2.html
+        1 file(s) copied.
+
+C:\Users\Matt\Desktop\test>del /p style.css
+C:\Users\Matt\Desktop\test\style.css, Delete (Y/N)? Y
+
+C:\Users\Matt\Desktop\test>cd ..
+
+C:\Users\Matt\Desktop>md destination
+
+C:\Users\Matt\Desktop>move test\index_2.html destination\index_2.html
+        1 file(s) moved.
+
+C:\Users\Matt\Desktop>dir test
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is FC11-23DA
+
+ Directory of C:\Users\Matt\Desktop\test
+
+07/16/2017  05:51 PM    <DIR>          .
+07/16/2017  05:51 PM    <DIR>          ..
+07/16/2017  05:49 PM                 0 commands.txt
+07/16/2017  05:49 PM                 0 index.html
+               2 File(s)              0 bytes
+               2 Dir(s)  752,260,804,608 bytes free
+
+C:\Users\Matt\Desktop>dir destination
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is FC11-23DA
+
+ Directory of C:\Users\Matt\Desktop\destination
+
+07/16/2017  05:51 PM    <DIR>          .
+07/16/2017  05:51 PM    <DIR>          ..
+07/16/2017  05:49 PM                 0 index_2.html
+               1 File(s)              0 bytes
+               2 Dir(s)  752,260,751,360 bytes free
+
+C:\Users\Matt\Desktop>rd /s destination
+destination, Are you sure (Y/N)? Y
+
+C:\Users\Matt\Desktop>dir
+ Volume in drive C is Windows8_OS
+ Volume Serial Number is FC11-23DA
+
+ Directory of C:\Users\Matt\Desktop
+
+07/16/2017  05:53 PM    <DIR>          .
+07/16/2017  05:53 PM    <DIR>          ..
+06/27/2017  12:17 PM             2,284 Atom.lnk
+06/28/2017  01:36 PM            92,824 bookmarks-2017-06-28.json
+06/05/2013  07:33 PM             1,133 Cyberlink Power2Go.lnk
+11/28/2014  08:20 AM             1,074 Dropbox.lnk
+01/10/2016  07:08 PM             1,886 Edge.lnk
+07/05/2017  05:40 PM                 0 firstPage.html
+06/27/2017  11:17 AM             2,523 GitHub Desktop.lnk
+01/10/2016  07:08 PM             1,104 Internet Explorer.lnk
+12/19/2010  01:31 AM               189 Lenovo Telephony Start Now.url
+06/05/2013  08:43 PM               220 Rome Total War.url
+09/03/2013  07:04 PM               221 Spiral Knights.url
+07/16/2017  05:51 PM    <DIR>          test
+09/04/2013  07:40 PM               222 Total War ROME II.url
+06/05/2013  09:23 PM               221 Total War SHOGUN 2.url
+              13 File(s)        103,901 bytes
+               3 Dir(s)  752,260,296,704 bytes free
